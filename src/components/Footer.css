@@ -1,0 +1,39 @@
+.footer {
+  padding: 1.5rem 0;
+  border-top: 1px solid #eaeaea;
+  margin-top: auto;
+  background-color: white;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.created-by {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 0.85rem;
+}
+
+.brilliant-noise {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bn-text {
+  font-weight: 600;
+}
+
+.bn-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+} 

@@ -1,0 +1,46 @@
+.experiment-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.error-container {
+  max-width: 600px;
+  margin: 5rem auto;
+  text-align: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eaeaea;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.back-button {
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #333;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.back-button:hover {
+  background-color: #333;
+  color: white;
+} 

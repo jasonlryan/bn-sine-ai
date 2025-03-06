@@ -1,0 +1,99 @@
+.navigation {
+  background-color: white;
+  color: #333;
+  padding: 1rem 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #eaeaea;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.nav-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.home-link {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.home-link:hover {
+  color: #3498db;
+}
+
+.logo {
+  height: 30px;
+  width: auto;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+.brand-text {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #3498db;
+}
+
+.lateral-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.prev-link, .next-link {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .logo {
+    height: 25px;
+  }
+  
+  .brand-text {
+    font-size: 1rem;
+  }
+} 
