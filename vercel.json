@@ -1,0 +1,16 @@
+{
+  "framework": "create-react-app",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "routes": [
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/experiments/(.*)", "dest": "/experiments/$1" },
+    { "src": "/favicon.ico", "dest": "/favicon.ico" },
+    { "src": "/manifest.json", "dest": "/manifest.json" },
+    { "src": "/logo(.*).png", "dest": "/logo$1.png" },
+    { "src": "/(.*).png", "dest": "/$1.png" },
+    { "src": "/(.*).jpeg", "dest": "/$1.jpeg" },
+    { "src": "/(.*).jpg", "dest": "/$1.jpg" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+} 
